@@ -72,6 +72,7 @@ Angular képek jön TK
 ====================
 2026-09-09
 
+Angular képek
 
 
 
