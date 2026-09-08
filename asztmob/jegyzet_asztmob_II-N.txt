@@ -1,1 +1,226 @@
 
+Asztali- és mobil alkalmazások fejlesztése
+
+
+====================
+
+2026-09-04
+
+TK
+https://github.com/oktat/tan
+
+Java
+https://www.oracle.com/
+
+Java Magazin
+
+.exe fájlok
+https://szit.hu/
+
+c:\bin
+c:\Users\diak\bin
+
+
+mehet
+	No build tools
+            mehet.jar
+	mehet.exe
+standard input       0
+standard output     1
+standard error       2
+System.out.println()
+System.err.println()
+
+
+java -jar mehet.jar
+
+java -jar mehet.jar > NUL
+java -jar mehet.jar 1> NUL
+
+java -jar mehet.jar 2> NUL
+
+java -jar mehet.jar > normal.txt
+java -jar mehet.jar 2> hibak.txt
+
+java -jar mehet.jar 1> normal.txt 2> hibak.txt
+
+Hozzáfűzés:
+java -jar mehet.jar 1>> normal.txt 2>> hibak.txt
+
+java -jar mehet.jar > mind.txt 2>&1 
+
+
+
+
+2 számrendszereben 1
+
+0001
+
+2 sz. 2
+0010
+
+2 sz 3
+0011
+
+
+             0011
+ÉS        0010
+—--------------
+             0010
+
+
+Bool algebra
+
+VAGY
+A  II   B   |   C
+—---------------
+0       0   |   0
+1       0   |   1
+0       1   |   1
+1       1   |   1
+
+ÉS
+A && B   |   C
+—---------------
+0       0   |   0
+1       0   |   0
+0       1   |   0
+1       1   |   1
+
+Tagadás (negálás)
+~A |  B
+——----
+0   |  1 
+1   |  0
+
+
+
+
+int jog = 0b0001|0b0010;
+int jog = 1 | 2;
+
+foreach()
+
+String a = “alma”;
+String a = new String(“alma”);
+
+
+TK
+01 Java nyelv befejezve
+
+02 OOP
+
+Apache Foundation
+Apache Netabeans
+
+
+Dolgozat
+Időpont ?
+Téma: Java fájlkezelés
+
+
+Feladat 0835
+
+Storage       fájlkezelés
+Solution      megoldás
+Bicycle       kerékpár tárolása
+
+szit.hu/int
+
+Labormunka
+
+Legközelebb:
+            Kimaradt: /dev/null
+csepelke projekt folytatása
+   (gyakorló dolgozatra)
+TK folytatás OOP
+
+
+
+
+
+
+
+====================
+
+2026-09-07
+
+
+prog > NUL			Windows
+prog > /dev/null		Linux
+
+
+
+class Valami {}
+class Mas extends Valami {}
+
+Feladat a TK 
+Az absztrak osztály gyakorlat 01
+Mentés: animal
+
+
+Interfész
+interface
+
+
+jarmu - Java - No build tools…
+
+
+Laza függőség
+
+
+Mentés: bama
+No build tools
+	Külső függőség használata
+
+MariaDB -> XAMPP
+
+central.sonatype.com
+
+
+mariadb-java-client
+
+
+C:\Users\diak\lib\mariadb\
+
+MariaDB kliens program:
+c:\XAMPP\mysql\bin\mysql.exe
+
+
+
+mysql -u root
+
+
+show databases;
+
+create database bama;
+show databases;
+use bama;
+
+show tables;
+
+
+
+Felhasználó:
+grant all privileges
+on bama.*
+to bama@localhost
+identified by 'titok';
+
+
+(to ‘bama’@’localhost’)
+
+
+
+egységbezárás
+
+DataService.java
+
+Legközelebb:
+	(megnéztük a laza függőséget)
+	Lazza függőség folytatása UML ábrákkal TK
+csepelke projekt folytatása
+bama projekt folytatása
+		adatbázisból be kell olvasni
+		.gitignore -> lib
+
