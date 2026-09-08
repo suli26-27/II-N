@@ -1,1 +1,79 @@
 
+Frontend
+
+====================
+
+2026-09-02
+
+Házi? Szilikon völgy kalózai?
+
+github.com/oktat/tan
+
+a += 3
+a = a + 3
+
+a **= 3
+a = a ** 3
+
+https://github.com/oktat/tan/blob/master/frontend/02_JavaScript.md
+
+TypeScriptig jutottunk
+
+Angular ismétlés
+  projekt készítés
+  komponens készítés
+  útválasztás
+
+
+npm i -g @angular/cli@22.1.5
+
+ng v
+node --version
+
+
+Vizsgaremek? Git
+
+git humer_api
+git humer_frontend
+
+
+ng new humerweb
+
+ng add bootstrap
+npm install bootstrap
+
+Mit beszéltünk meg:
+dlajsdlfj
+
+Cél
+
+Fodrászat vendég időpontfoglalás.
+
+
+position
+employee
+
+PositionComponent
+PositionService
+Position
+
+ng g c valami --type component
+ng g s valami --type service
+
+ng g c valami-component
+
+
+npm i bootstrap-icons
+
+Legközelebb:
+	humerweb projekt github-ra
+Angular képek jön TK
+
+
+====================
+2026-09-09
+
+
+
+
+
