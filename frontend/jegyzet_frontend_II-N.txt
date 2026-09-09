@@ -153,4 +153,42 @@ _Humer login_
 
 ng g c login --type component
 
+_Iteráció_
+
+  fruits = [
+    'alma',
+    'körte',
+    'barack',
+    'szilva'
+  ]
+
+<ul>
+    @for( fruit of fruits ; track fruit  ) {
+        <li>{{ fruit }}</li>
+    }
+</ul>
+
+app.html
+app.component.html
+
+
+ng generate service shared/emp-api --type service
+ng g s shared/emp-api --type service
+
+
+_Szolgáltatás gyakorlat_
+
+szoli
+
+ng new szoli
+
+ng g s logger --type service
+
+
+app
+
+Legközelebb:
+	Sablonvezérelt űrlapok
+    Szolgáltatás, útválasztás és képbeszúrás ismétlés
+
 
