@@ -129,5 +129,10 @@ git clone https://github.com/suli26-27/ii_n_humerweb.git
     Csere
 </button>
 
+_Szelekció_
+
+régen *ngIf
+ma:   @if() {}
+@if() {} @else {}
 
 
