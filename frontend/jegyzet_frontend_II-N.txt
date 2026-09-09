@@ -129,10 +129,28 @@ git clone https://github.com/suli26-27/ii_n_humerweb.git
     Csere
 </button>
 
+  name: string = 'Feri'
+
+  changeName() {
+    this.name = 'Dani'
+  }
+
+
 _Szelekció_
 
 régen *ngIf
 ma:   @if() {}
 @if() {} @else {}
+
+@if(lathato) {
+    <div>macska</div>
+
+}@else {
+    <div>kutya</div>
+}
+
+_Humer login_
+
+ng g c login --type component
 
 
