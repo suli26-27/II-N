@@ -64,6 +64,26 @@ ng g c valami-component
 
 npm i bootstrap-icons
 
+<!-- menü ide jön -->
+
+<i class="bi bi-bug-fill"></i>
+
+<h1>Első</h1>
+
+{{title()}}
+
+<div>{{sajat}}</div>
+
+<button class="btn btn-primary m-2"
+data-bs-toggle="collapse"
+data-bs-target="#egy"
+>Mehet</button>
+
+<div id="egy" class="collapse m-2">
+    <div class="card card-body">Kártya</div>
+</div>
+
+
 Legközelebb:
 	humerweb projekt github-ra
 Angular képek jön TK
@@ -72,7 +92,31 @@ Angular képek jön TK
 ====================
 2026-09-09
 
+git clone https://github.com/suli26-27/ii_n_humerweb.git
+
+
+git remote show origin
+git remote remove origin
+git remote add origin https://github.com/sajatnev/tarlom.git
+
+git remote set-url origin https://github.com/sajatnev/tarlom.git
+
+git config --local user.name
+git config --global user.name
+
+git config --global user.name "Fontos Géza"
+git config --global user.email fontos@valahol.lan
+
+
+
+
 Angular képek
+
+ng generate component home --type component
+ng g c home --type component
+
+
+
 
 
 
