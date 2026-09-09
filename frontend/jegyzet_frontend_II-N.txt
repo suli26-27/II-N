@@ -115,9 +115,19 @@ Angular képek
 ng generate component home --type component
 ng g c home --type component
 
+TC: Átnevezés:  Shift + F6
+
+https://github.com/suli26-27/ii_n_humerweb.git
+git clone https://github.com/suli26-27/ii_n_humerweb.git
 
 
+<p>{{ name }}</p>
 
+<button class="btn btn-primary"
+(click)="changeName()"
+>
+    Csere
+</button>
 
 
 
