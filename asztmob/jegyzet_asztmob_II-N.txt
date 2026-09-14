@@ -224,3 +224,32 @@ bama projekt folytatása
 		adatbázisból be kell olvasni
 		.gitignore -> lib
 
+==================
+
+2026-09-14
+
+
+DataService.java   > Database.java >  Mariadb.java
+
+
+bama
+
+SQLite-ban táblázat létrehozva.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
