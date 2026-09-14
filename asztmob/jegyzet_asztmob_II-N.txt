@@ -238,7 +238,13 @@ SQLite-ban táblázat létrehozva.
 
 
 
+Maven nem letölteni újra
+No build tools - A lib könyvtárba mindig le kell tölteni az illesztőrprogramot.
 
++, -, * /  %
+
+palma
+ 	No build tools...
 
 
 
