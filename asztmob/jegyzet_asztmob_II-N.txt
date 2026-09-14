@@ -249,6 +249,7 @@ palma
 Több alakúság
 
 Legközelebb:
+	Angol név: több alakúság, öröklés
 	A super hívása
 	Van gyakorlat Laza függgőségre (még nem csináltuk meg)
   	Feladatgyűjteményből feladatmegoldás
