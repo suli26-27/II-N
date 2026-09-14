@@ -246,8 +246,16 @@ No build tools - A lib könyvtárba mindig le kell tölteni az illesztőrprogram
 palma
  	No build tools...
 
+Több alakúság
 
-
+Legközelebb:
+	A super hívása
+	Van gyakorlat Laza függgőségre (még nem csináltuk meg)
+  	Feladatgyűjteményből feladatmegoldás
+  		Innen lesz a dolgozat
+	Adatbázis-kezelés
+		Folytathatjuk a bama projektet
+		
 
 
 
