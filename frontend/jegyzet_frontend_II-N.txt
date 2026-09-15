@@ -191,4 +191,9 @@ Legközelebb:
 	Sablonvezérelt űrlapok
     Szolgáltatás, útválasztás és képbeszúrás ismétlés
 
+====================
+
+2026-09-16
+
+
 
