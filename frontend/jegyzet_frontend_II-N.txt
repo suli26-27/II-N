@@ -197,5 +197,85 @@ Legközelebb:
 
 __Sablonvezérelt űrlap__
 
+urlap/
+ng new urlap
+
+<button type="button">
+<button type="submit">
+<button type="reset">
+
+<input type="button">
+
+
+
+<form>
+  <div>
+    <label for="name">Név</label>
+    <input type="text" [(ngModel)]="name"
+    name="name" id="name">
+  </div>
+
+  <div>
+    <button type="button"
+    (click)="onStart()">Küld</button>
+  </div>
+</form>
+
+
+import { Component, signal } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+
+@Component({
+  imports: [FormsModule],
+  selector: 'app-root',
+  styleUrl: './app.css',
+  templateUrl: './app.html',
+})
+export class App {
+  protected readonly title = signal('urlap');
+
+  name : string = 'névtelen';
+
+  onStart() {
+    console.log('műkszik...')
+    console.log(this.name)
+    this.name = 'Pali'
+    console.log(this.name)
+  }
+
+}
+
+
+Külön button:
+
+
+<form (ngSubmit)="onStart()" id="userForm">
+  <div>
+    <label for="name">Név</label>
+    <input type="text" [(ngModel)]="name"
+    name="name" id="name">
+  </div>
+
+
+</form>
+
+  <div>
+    <button type="submit"
+    form="userForm">Küld</button>
+  </div>
+
+  <select>
+    <option value="1">Szeged</option>
+    <option value="2">Szolnok</option>
+    <option value="3">Pécs</option>
+  </select>
+
+npm install
+pnpm install
+yarn install
+
+signup/
+
+ng generate component signup --type component
 
 
