@@ -280,5 +280,8 @@ ng generate component signup --type component
 
 __Reaktív űrlapok__
 
+empha
 
+Legközelebb:
+	Csoportosított űrlapvezérlők
 
