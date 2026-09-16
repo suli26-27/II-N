@@ -278,4 +278,7 @@ signup/
 
 ng generate component signup --type component
 
+__Reaktív űrlapok__
+
+
 
