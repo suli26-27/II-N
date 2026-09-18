@@ -291,6 +291,12 @@ telefon/
 	Okostelefon.java
     App.java
 
+__Adatbázis-kezelés__
+
+bama ? hogyan áll?
+
+https://github.com/suli26-27/iin_bama.git
+
 
 
 
