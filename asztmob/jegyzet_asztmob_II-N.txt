@@ -297,14 +297,32 @@ bama ? hogyan áll?
 
 https://github.com/suli26-27/iin_bama.git
 
+git clone https://github.com/suli26-27/iin_bama.git
 
 
+Mavan alapú: bamav
+	MVC
+	   views/
+       controllers/
+       models/
+         |-Employee.java
+         |-Database.java
+         |-DataService.java
+         |-Mariadb.java
+         |-Sqlite.java
 
 
+(
+	models/
+      |-dto/
+      |-database/
+)
 
+EmployeeDTO.java
 
+central.sonatype.com
 
-
+sqlite jdbc
 
 
 
