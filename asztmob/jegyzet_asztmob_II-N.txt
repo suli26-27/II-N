@@ -258,6 +258,46 @@ Legközelebb:
 		Folytathatjuk a bama projektet
 		
 
+==================
+
+2026-09-18
+
+Dolgozat1: 2026-10-02
+	interface megvalósítása
+Dolgozat2: 2026-10-19
+    állomány- és adatbázis-kezelés
+Dolgozat3: 2026-12-04 témazáró (200%)
+    GUI?
+
+Interface megvalósítása
+github.com/oktat/tan
+
+https://github.com/oktat/tan/blob/master/asztali_mobil/02_OOP.md#oop-feladat
+
+Feladat 002 megoldása
+
+triangle/
+	No build tools
+
+Megoldás:
+https://github.com/suli26-27/iin_triangle.git
+
+__OOP__
+
+_super() használata_
+
+telefon/
+	Telefon.java
+	Okostelefon.java
+    App.java
+
+
+
+
+
+
+
+
 
 
 
