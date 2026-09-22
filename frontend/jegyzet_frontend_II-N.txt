@@ -285,3 +285,43 @@ empha
 Legközelebb:
 	Csoportosított űrlapvezérlők
 
+====================
+
+2026-09-23
+
+Ismétlés:
+
+
+  name: string = 'névtelen'
+  city: string = 'ismeretlen'
+  salary: number = -1
+  
+
+
+interface User {
+  username: string;
+  email: string;
+  password: string;
+}
+
+  user: User = {
+    username: '',
+    email: '',
+    password: ''
+  }
+
+
+  name = new FormControl('');
+  city = new FormControl('');
+  salary = new FormControl('');
+  
+
+Új:
+
+  triangleForm = new FormGroup( {
+    base: new FormControl(''),
+    height: new FormControl(''),
+    area: new FormControl('')
+  })
+
+
