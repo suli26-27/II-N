@@ -291,13 +291,13 @@ Legközelebb:
 
 Ismétlés:
 
-
+Sablonvezérelt 1
   name: string = 'névtelen'
   city: string = 'ismeretlen'
   salary: number = -1
   
 
-
+Sablonvezérelt 2
 interface User {
   username: string;
   email: string;
@@ -310,6 +310,7 @@ interface User {
     password: ''
   }
 
+Reaktív 1
 
   name = new FormControl('');
   city = new FormControl('');
