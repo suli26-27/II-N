@@ -332,3 +332,50 @@ class Valami {
 }
 
 
+csopi/
+
+ng new csopi
+	emp
+ng g c emp --type component
+
+class EmpComponent {}
+
+<app-emp></app-emp>
+<app-emp />
+
+
+
+ng new loginha
+ng g c login --type component
+
+Minimum 2-s számérték:
+Validators.min(2)]
+
+Minimum 2 karakter
+Validators.minLength(2)
+
+  registerForm = this.builder.group({
+    username: ['', [Validators.required, Validators.minLength(2)]],
+    email: ['', [Validators.required, Validators.email]
+    password: ['', [
+		Validators.required, 
+		Validators.minLength(6), 
+		Validators.maxLength(20)]
+	]
+  })
+
+(
+fetch() 
+HttpClient
+)
+
+Dolgozat:
+2026-10-07
+
+_Gyakorlás dolgozatra_
+
+Feladat 0302
+
+
+
+
