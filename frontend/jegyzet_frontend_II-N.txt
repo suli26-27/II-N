@@ -375,6 +375,27 @@ Dolgozat:
 _Gyakorlás dolgozatra_
 
 Feladat 0302
+	hozzon létre alkomponens gula néven
+	használjon reaktív űrlapot FormBuilder-rel
+	végezze el a számítás, írassa képernyőre az eredményt,
+	legyen about és home komponens
+	ellenőrizzen érvényességet,
+        kötelező, minimum érték
+	használjon CSS vagy Bootstrap-t a stílus meghatározásához
+
+ng g c gula --type componet
+ng g c home --type componet
+ng g c about --type componet
+
+Legközelebb:
+	A gula projekt gyakorlás dolgozatra
+	Be kell fejezni:
+		Érvénytelenség esetén legyen szöveg is
+		Legyen fejléc-megjegyzés
+		Legyen git
+	HttpClient TK szerint
+
+
 
 
 
