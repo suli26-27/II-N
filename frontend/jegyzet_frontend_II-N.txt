@@ -393,6 +393,7 @@ Legközelebb:
 		Érvénytelenség esetén legyen szöveg is
 		Legyen fejléc-megjegyzés
 		Legyen git
+	patchValue-t nem néztük (?)
 	HttpClient TK szerint
 
 
