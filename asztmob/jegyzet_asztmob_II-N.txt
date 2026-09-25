@@ -344,6 +344,7 @@ dialect = sqlite
 dialect = mariadb
 
 Legközelebb:
+    Úgy tűnik, nem lett feltöltve a bamav projekt a GitHub-ra.
 	Menézzük, hogy a config fájlból tud olvasni
 	a bamav projekt.
     Írjuk át class Config extends Properties {}
