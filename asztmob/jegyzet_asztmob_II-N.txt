@@ -346,6 +346,7 @@ dialect = mariadb
 Legközelebb:
 	Menézzük, hogy a config fájlból tud olvasni
 	a bamav projekt.
+    Írjuk át class Config extends Properties {}
     Utána adatbázis kezelés utáni rész TK.
 
 
