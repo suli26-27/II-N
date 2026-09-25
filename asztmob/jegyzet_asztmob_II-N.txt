@@ -324,9 +324,29 @@ central.sonatype.com
 
 sqlite jdbc
 
+====================
+
+2026-09-25
+
+bamav
+github.com/suli26-27/iin_bamav
 
 
+git clone https://github.com/suli26-27/iin_bamav.git
 
+
+employeeService.delete(5)
+
+Beállítások fájlban tárolása
+
+dialect = sqlite
+
+dialect = mariadb
+
+Legközelebb:
+	Menézzük, hogy a config fájlból tud olvasni
+	a bamav projekt.
+    Utána adatbázis kezelés utáni rész TK.
 
 
 
