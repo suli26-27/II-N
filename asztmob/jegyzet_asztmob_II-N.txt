@@ -355,6 +355,7 @@ Legközelebb:
 2026-09-28
 
 Dolgozat: 2026-10-02, interface implementálása
+Gyakorláshoz: Feladat 007
 
 
 
