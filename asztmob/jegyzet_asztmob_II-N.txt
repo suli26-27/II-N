@@ -350,6 +350,11 @@ Legközelebb:
     Írjuk át class Config extends Properties {}
     Utána adatbázis kezelés utáni rész TK.
 
+====================
+
+2026-09-28
+
+Dolgozat: 2026-10-02, interface implementálása
 
 
 
