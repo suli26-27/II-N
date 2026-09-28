@@ -345,7 +345,7 @@ dialect = mariadb
 
 Legközelebb:
     Úgy tűnik, nem lett feltöltve a bamav projekt a GitHub-ra.
-	Menézzük, hogy a config fájlból tud olvasni
+	Megnézzük, hogy a config fájlból tud olvasni
 	a bamav projekt.
     Írjuk át class Config extends Properties {}
     Utána adatbázis kezelés utáni rész TK.
@@ -356,6 +356,55 @@ Legközelebb:
 
 Dolgozat: 2026-10-02, interface implementálása
 Gyakorláshoz: Feladat 007
+
+https://github.com/oktat/tan
+
+network/
+  No build tools...
+
+
+https://szit.hu/int
+
+__REST API kezelés__
+
+Backend
+
+https://github.com/oktatapi/emp_den.git
+
+
+git clone https://github.com/oktatapi/emp_den.git
+
+HttpURLConnection
+HttpClient (Java 11-től)
+Resclient (Java 11-től, mivel a HttpClient-t használja)
+Unirest (Java 11-től, mert a Apache HttpClient-t használja)
+
+
+emp_client
+   Maven
+
+ArrayList<Employee>
+
+Employee.java
+
+DTO (Data Transfer Objet)
+	EmployeeListResponse.java
+
+Gson (Google)
+ResConvert
+
+SimpleEmployee.java
+
+Update.java
+   main()
+
+Delete.java
+   main()
+
+
+
+
+
 
 
 
