@@ -401,6 +401,8 @@ Update.java
 Delete.java
    main()
 
+Átnéztük a REST API elérését ResClient-tel,
+Java objektum konvertálással.
 
 
 
