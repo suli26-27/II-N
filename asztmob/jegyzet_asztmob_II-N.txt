@@ -404,10 +404,22 @@ Delete.java
 Átnéztük a REST API elérését ResClient-tel,
 Java objektum konvertálással.
 
+donga/
+  
+java/com/examples/
+		  |-controllers/
+		  |-dtos/
+		  |-models/
+		  |-repositories/
+		  |-views/
+		  `-Main.java
 
-
-
-
-
+Legközelebb:
+	Dolgozat élesedik
+	A donga projekt folytatása
+		https://github.com/suli26-27/iin_donga.git
+		Az EmployeeRepository-ban kész a findAll()
+        Kell neki egy EmployeeView
+        Majd tesztelni kell.
 
 
