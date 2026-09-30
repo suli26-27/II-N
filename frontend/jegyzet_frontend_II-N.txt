@@ -466,6 +466,22 @@ git config --local user.email eros@valahol.hu
         class="form-control">
     </div>
 
+Mező felülírása mezőnként és csoportosan (patchjValue)
+ this.gulaForm.get('volume')?.setValue(String(volume))
+ 
+ this.gulaForm.patchValue({
+	volume: String(volume)
+ })
+
+
+__HttpClient__
+
+fetch() helyett.
+
+https://jsonplaceholder.typicode.com/todos
+
+
+
 
 
 
