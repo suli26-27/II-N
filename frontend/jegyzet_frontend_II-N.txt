@@ -504,6 +504,26 @@ Legközelebb
 	empclien folytatása
 	Új elem felvétele 
 	Mi okozza a hibát?
+		A Bootstrap JavaScript előkészíti a DOM-t, és ezzel egy időben, vagy
+		rossz sorrendben az Angular frissíti a DOM-t.
+
+	Megoldás:
+		nem használunk Bootstrap JavaScriptet
+		signal használata
+			employees = signal<any[]>([])
+			//...
+			this.employees.set(res.data)
+ 			
+			@for( emp of employees() ; track emp.id ) { }
+		
+		ChangeDetectorRef használata
+			import { ChangeDetectorRef } from '@angular/core';
+			//...
+			cdr = inject(ChangeDetectorRef)
+			//...
+			this.employees = res.data
+        	this.cdr.detectChanges()
+
 
 
 
