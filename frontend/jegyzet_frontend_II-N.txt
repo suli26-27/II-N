@@ -397,6 +397,22 @@ Legközelebb:
 	HttpClient TK szerint
 
 
+====================
+
+2026-09-30
+
+Általában, milyen szempontokat veszünk figyelembe értékelésnél?
+	Angular alkalmazás
+	Git használata
+	3 komponens
+	útválasztás
+	navigáció
+	feladat
+	működés
+
+
+
+
 
 
 
