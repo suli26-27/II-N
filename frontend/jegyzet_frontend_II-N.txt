@@ -501,7 +501,7 @@ a böngészőben a frissítésre, eltűnnek az adatok.
 Egyelőre ismeretelen az ok.
 
 Legközelebb 
-	empclien folytatása
+	empclient folytatása
 	Új elem felvétele 
 	Mi okozza a hibát?
 		A Bootstrap JavaScript előkészíti a DOM-t, és ezzel egy időben, vagy
