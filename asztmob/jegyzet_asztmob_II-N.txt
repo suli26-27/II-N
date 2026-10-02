@@ -447,6 +447,12 @@ more docs\quick_installation.md
 
 CRUD művletek kész
 
+__JavaFX__
+
+Elkezdtük a tanykönyvben.
+
+Moduláris fejlesztés rész jön.
+
 Legközelebb:
 	JavaFX programban Sqlite függőség
 	más függőségek használat
