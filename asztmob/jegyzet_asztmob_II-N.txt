@@ -447,4 +447,11 @@ more docs\quick_installation.md
 
 CRUD művletek kész
 
+Legközelebb:
+	JavaFX programban Sqlite függőség
+	más függőségek használat
+	Mariadb
+	MySQL
+	Resclient
+
 
