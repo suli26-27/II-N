@@ -422,4 +422,29 @@ Legközelebb:
         Kell neki egy EmployeeView
         Majd tesztelni kell.
 
+==================
+
+2026-10-02
+
+git config --global user.name
+git config --global user.name "Erős István"
+
+git config --global user.emai
+git config --global user.emai eros@valahol.hu
+
+git config --global --unset user.name
+git config --global --unset user.email
+
+git remote remove origin
+git remote add origin https://github.com/sajatnev/sajatrepo.git
+git remote set-url origin https://github.com/sajatnev/sajatrepo.git
+
+git clone https://github.com/oktatapi/emp_den.git
+
+cd emp_den
+type docs\quick_installation.md
+more docs\quick_installation.md
+
+CRUD művletek kész
+
 
