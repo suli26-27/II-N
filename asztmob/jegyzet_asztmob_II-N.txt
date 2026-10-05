@@ -460,4 +460,51 @@ Legközelebb:
 	MySQL
 	Resclient
 
+==================
+
+2026-10-05
+
+__JavaFX adatbázis__
+
+fxbazis/
+  JavaFX
+
+
+Configure Java Runtime
+
+Configure Scene Builder path
+
+com.example.MainController
+com.example.controllers.MainController
+
+
+Database interfész
+Sqlite
+Mariadb
+
+Szünet ....
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
