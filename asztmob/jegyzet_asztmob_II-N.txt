@@ -484,6 +484,28 @@ Mariadb
 
 Szünet ....
 
+EmployeeService.java
+tryGetEmployees()
+
+https://github.com/suli26-27/iin_fxbazis.git
+
+Bővítmény:
+Sqlite3 Editor
+
+Táblázat: table
+
+Oszlopok nevei:
+	idCol
+	nameCol
+	cityCol
+	salaryCol
+
+Szünet (nyújtózkodás, tea) ...
+
+
+
+
+
 
 
 
