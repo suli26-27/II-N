@@ -505,6 +505,66 @@ https://github.com/suli26-27/iin_fxbazis.git
 Szünet (nyújtózkodás, tea) ...
 
 
+C:\xampp\mysql\bin\
+mysql -u root -p
+
+Linux
+mariadb
+
+
+Windows
+XAMPP Controll Center
+MySQL   Start
+
+show databases;
+
+create database fxbazis;
+
+use fxbazis;
+
+show databases;
+
+grant all privileges 
+on fxbazis.*
+to fxbazis@localhost
+identified by 'titok';
+
+
+create table employees(
+    id int not null primary key auto_increment,
+    name varchar(30),
+    city varchar(30),
+    salary int
+);
+
+
+show tables;
+
+desc employees;
+
+String url = "jdbc:mariadb://localhost:3306/fxbazis";
+
+String url = "jdbc:mysql://localhost:3306/fxbazis";
+
+central.sonatype.com
+mariadb jdbc
+
+
+
+Kipróbáltuk a MySQL illesztőprogramot:
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.33</version>
+        </dependency>  
+
+A Red Hat függőségvizságló sebezhetőnek tartja.
+
+Legközelebb:
+	Folytathatjuk a táblázat Create művelettel (vagy)
+	Lista 
+	Fájlkezelés, feladat, majd eredmény adatbázisba írása
 
 
 
