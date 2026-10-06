@@ -52,7 +52,7 @@ java -jar mehet.jar > mind.txt 2>&1
 
 
 
-2 számrendszereben 1
+2 számrendszerben 1
 
 0001
 
