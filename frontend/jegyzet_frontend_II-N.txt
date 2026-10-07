@@ -524,9 +524,49 @@ Legközelebb
 			this.employees = res.data
         	this.cdr.detectChanges()
 
+===================
+
+2026-10-07
+
+https://github.com/suli26-27/iin_empclient
+https://github.com/oktatapi/emp_den.git
+
+ChangeDetectorRef használata
+import { ChangeDetectorRef } from '@angular/core';
+//...
+cdr = inject(ChangeDetectorRef)
+//...
+this.employees = res.data
+this.cdr.detectChanges()
+
+_Új elem felvétele_
+
+Legyen select backendből
+
+EmployeeServicee  <- ApiService
+PositionService
+
+ng g s shared/position --type service
+
+(
+ng g s shared/position-servie 
+ng g c valami-component
+
+ng g c employee --type component
+ng g c employee-component
+
+)
+
+const url = this.host + "/api/positions"
+const url = `${this.host}/api/positions`
 
 
 
+
+
+Halasztva:
+_Elem törlése_
+<i class="bi bi-trash3"></i>
 
 
 
