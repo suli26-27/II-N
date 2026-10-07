@@ -561,12 +561,32 @@ const url = this.host + "/api/positions"
 const url = `${this.host}/api/positions`
 
 
+git remote remove origin
+git remote add ...
+
+git config --local user.name "Erős István"
+git config --local user.email eros@valahol.hu
 
 
+git status -u
+git add .
+git commit -m "Read és Create művelet kész"
 
-Halasztva:
+
+https://github.com/suli26-27/iin_empclient
+
 _Elem törlése_
+
+npm install bootstrap-icons
+
 <i class="bi bi-trash3"></i>
+
+Legközelebb:
+	empclient folytatása
+		https://github.com/suli26-27/iin_empclient
+		https://github.com/oktatapi/emp_den.git
+		update művelet jön
+	azonosítás
 
 
 
