@@ -708,6 +708,11 @@ kész
 */
 
 Következik:
+	(
+		Megoldás:
+		sudo apt install maven
+		mvn clean compile
+	)
 	JavaFX Create művelet
 	Tisztakód: Formázás jön
 
