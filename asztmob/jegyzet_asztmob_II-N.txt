@@ -567,7 +567,149 @@ Legközelebb:
 	Fájlkezelés, feladat, majd eredmény adatbázisba írása
 
 
+=======================
 
+2026-10-09
+
+JavaFX
+
+A memória elfogyott.
+
+__Tiszta kód__
+
+
+Miért létezik az adott valami?
+Milyen szerepe van?
+Hogyan használjuk?
+
+int salary;
+
+
+//fizetés
+int a;
+
+
+Típuskódolás
+
+sName
+dSalary
+iSalary
+
+Button saveButton
+onClickSaveButton
+
+
+_Name
+m_Name
+
+Rossz példa:
+class Employee {
+	String _name;
+	
+	public void setName(String name) {
+		_name = name;
+	}
+}
+
+interface Database {}
+
+class Sqlite implements Database {}
+
+Rossza példa
+
+class Connect {
+	int salary;
+	public void increaseSalary() {}
+	public void setSalary(int salary) {}
+	
+}
+
+lekerNev()
+
+Szünet ...
+
+
+3-4 
+7 sor
+
+
+@FXML
+public Table<String> table
+
+initialize() {}
+
+
+public void valami() {
+	//...
+	if(a>3)
+		return;
+	//...
+}
+
+try {
+	//...
+	//kód2
+}catch() {
+	
+}
+
+class Valmai {
+
+}
+
+eljárás:
+public void egyik() {}
+
+függvény
+public int egyik() {}
+
+Függvény, eljárás
+
+__Megjegyzés__
+
+A jó megjegyzés az, amelyik
+nem létezik.
+
+
+int a; //háromszög alapja
+
+/*
+Erős István
+
+*/
+
+
+//TODO: mit kell tenni
+
+kész
+
+//System.out.println(a)
+
+
+
+
+2 ezer sor
+
+/**************************
+
+    VALMI
+
+***************************/
+
+
+
+/*
+
+  <h1>Example</h1>
+  <pre>
+  
+  </pre>
+
+*/
+
+Következik:
+	JavaFX Create művelet
+	Tisztakód: Formázás jön
 
 
 
