@@ -712,6 +712,8 @@ Következik:
 		Megoldás:
 		sudo apt install maven
 		mvn clean compile
+		Vegy VSCode bővítmény
+			Java: Clean Java Language Server Workspace
 	)
 	JavaFX Create művelet
 	Tisztakód: Formázás jön
