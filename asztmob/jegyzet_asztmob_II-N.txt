@@ -719,8 +719,16 @@ Következik:
 	Tisztakód: Formázás jön
 
 
+====================
 
+2026-10-14
 
+Terv (
+	Ismétlés:
+		Tisztakód
+	Fxbazis:
+		https://github.com/suli26-27/iin_fxbazis.git
+)
 
 
 
