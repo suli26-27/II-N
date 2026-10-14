@@ -730,8 +730,15 @@ Terv (
 		https://github.com/suli26-27/iin_fxbazis.git
 )
 
+__Fxbazis__
 
+https://github.com/suli26-27/iin_fxbazis.git
 
+Create művelet
+Delete művelet
+Update művelet
+
+Kész
 
 
 
