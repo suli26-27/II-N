@@ -740,6 +740,10 @@ Update művelet
 
 Kész
 
+Legközelebb:
+	JavaFX egyszerű gyakorlatok
+
+
 
 
 
