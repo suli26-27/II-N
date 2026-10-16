@@ -743,7 +743,32 @@ Kész
 Legközelebb:
 	JavaFX egyszerű gyakorlatok
 
+==================
 
+2026-10-16
+
+__JavaFX rádiógombok és fájlkezelés__
+
+kerdo/
+
+tasks.csv
+
+id:question:answer1:answer2:answer3:answer4:corret
+1:Mi a REST API?:Frontend keretrendszer:HTTP szerver:Pihenő idő:Programozói könyvtár:2
+2:Mi az Angular?:Backend keretrendszer:Java fejlesztőeszköz:Frontend keretrendszer:Kódszerkesztő:3
+
+MVC, mainScene.fxml
+models/DataSource.java   interfész
+models/FileDataSource.java  class
+
+tasks.csv.example
+
+
+https://github.com/suli26-27/iin_kerdo.git
+A lapozás kész.
+
+Legközelebb:
+	kerdo folytatása
 
 
 
