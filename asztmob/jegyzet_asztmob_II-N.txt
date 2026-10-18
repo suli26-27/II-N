@@ -768,6 +768,9 @@ https://github.com/suli26-27/iin_kerdo.git
 A lapozás kész.
 
 Legközelebb:
+    dolgozatra gyakorlás
+        Adatbázis-kezelés
+		https://szit.hu/doku.php?id=oktatas:programozas:feladatok:adatbazis-kezeles#feladat_0001
 	kerdo folytatása
 
 
