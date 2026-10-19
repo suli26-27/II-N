@@ -588,6 +588,57 @@ Legközelebb:
 		update művelet jön
 	azonosítás
 
+======================
+
+2026-10-19
 
 
+
+Backend > Frontend
+
+Asztal dolgozat gyakorlás - szerda
+
+telefon - KeePassDX
+
+cmdkey /list
+
+__Azonosítás__
+
+Backend 
+https://github.com/oktatapi/emp_den.git
+employees   
+postions
+
+
+employees  POST  azonosítás
+Angular:
+	azo/
+
+res
+Insomnia, 
+Insomnium  (nincs felhő)
+
+Dolgozók 3
+
+
+Egy végpont > egy könyvtár
+egy végpont + metódus > lekérdezés
+
+/api/register
+/api/login
+
+mari:titok
+
+/api/login
+
+Angular > 
+	azo/
+
+ng new azo
+    login
+    employee
+
+(ng g c login --type component)
+ng g c login-component
+ng g c employee-component
 
