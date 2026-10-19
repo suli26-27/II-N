@@ -642,3 +642,6 @@ ng new azo
 ng g c login-component
 ng g c employee-component
 
+ng g s shared/auth-service
+
+
