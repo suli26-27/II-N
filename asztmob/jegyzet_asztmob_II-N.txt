@@ -773,6 +773,43 @@ Legközelebb:
 		https://szit.hu/doku.php?id=oktatas:programozas:feladatok:adatbazis-kezeles#feladat_0001
 	kerdo folytatása
 
+==================
+
+2026-10-21
+
+Java adatbázis-kezelés
+
+szit.hu
+Oktatás > Programozás > Feladatok > Adatbázis-kezelés
+
+
+prodec/
+	Maven
+	SQLite
+
+central.sonatype.com
+    sqlite-jdbc
+    org.xerial
+
+Az adatbázis-kapcsolathoz használjon interfészt.
+    Database.java
+		interface Database{}
+        connect()
+    Sqlite.java
+	 	class Sqlite implements Database {}
+   
+	FruitService.java
+		getFruits()
+        readFruits()
+        indexFruits()
+        findAll()
+Statement
+PreparedStatement
+
+Megjelenítés
+
+FruitView.java
+printFruits(List<Fruit> fruitList)
 
 
 
