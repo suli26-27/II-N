@@ -823,9 +823,11 @@ Erős István:3:4:1
 Legközelebb:
 	A kerdo projekt kész, csak az ékezetek helytelenül íródnak ki.
 	Jöhet egy következő téma
-    (Volt még egy befejezetlen projekt)
-
-
+		listadoboz		
+		jelölőnégyzet
+		legördülő listadoboz
+		léptetődoboz
+        args
 
 
 
