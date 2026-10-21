@@ -811,8 +811,19 @@ Megjelenítés
 FruitView.java
 printFruits(List<Fruit> fruitList)
 
+FruitController.java
+szit.hu/int
 
+Dolgozatra gyakorlás kész
 
+https://github.com/suli26-27/iin_kerdo.git
+
+Erős István:3:4:1
+
+Legközelebb:
+	A kerdo projekt kész, csak az ékezetek helytelenül íródnak ki.
+	Jöhet egy következő téma
+    (Volt még egy befejezetlen projekt)
 
 
 
