@@ -648,6 +648,9 @@ ng g s shared/auth-service
 Legközelebb:
 https://github.com/oktatapi/emp_den.git
 https://github.com/suli26-27/iin_azo.git
+	A login felület átirányatása az employee komponensre
+    Kilépés megvalósítása
+
 
 
 
