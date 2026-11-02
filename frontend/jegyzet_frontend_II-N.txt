@@ -651,7 +651,28 @@ https://github.com/suli26-27/iin_azo.git
 	A login felület átirányatása az employee komponensre
     Kilépés megvalósítása
 
+====================
+
+2026-11-02
+
+Dolgozat: szerda
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+==========
