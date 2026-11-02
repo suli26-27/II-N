@@ -657,9 +657,38 @@ https://github.com/suli26-27/iin_azo.git
 
 Dolgozat: szerda
 
+VSCode
+VSCodium
+Cursor
+	cursor .
+vim
+vi
+https://github.com/oktatapi/emp_den.git
+https://github.com/suli26-27/iin_azo.git
 
+2026-11-02/
+   |-emp_den
+   `-iin_azo
 
+_Útvonalak védelme_
 
+AuthGuard
+
+PS1="$ "
+
+_Nem létező oldal_
+
+ng generate component nopage-component
+ng g c nopage-component
+
+{ path: "**", component: NopageComponent }
+
+__Pipe__
+
+Cső
+
+cso
+ng new cso
 
 
 
