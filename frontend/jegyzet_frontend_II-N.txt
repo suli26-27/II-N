@@ -691,6 +691,16 @@ cso
 ng new cso
 
 
+2026-11-02
+2026.11.02.
+
+
+Legközelebb:
+	Pipe
+		A cso folytatása
+		"Idővel együtt:" rész jön
+
+
 
 
 
