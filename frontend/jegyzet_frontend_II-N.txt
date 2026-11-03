@@ -699,19 +699,11 @@ Legközelebb:
 	Pipe
 		A cso folytatása
 		"Idővel együtt:" rész jön
+   Dolgozatra gyakorlás:
+   	https://szit.hu/doku.php?id=oktatas:web:feladatok:kliens#feladat_0104
+
+====================
+
+2026-11-04
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-==========
