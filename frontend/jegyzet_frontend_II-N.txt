@@ -753,8 +753,12 @@ Pipe
 
 https://github.com/suli26-27/iin_cso.git
 
+Saját komponens áttekintve. Salaryhuf
 
+__Pipe alkalmazása__
 
+https://github.com/oktatapi/emp_den.git    (Sipere, dolgozói backend)
+https://github.com/suli26-27/iin_azo.git
 
 
 
