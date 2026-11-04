@@ -739,6 +739,17 @@ Laravel
 
 https://github.com/oktatapi/humerlar.git
 
+composer install
+npm install
+
+
+Jövőben: Laravel azonosítás ha be van állítva
+	login, register végpont
+
+__Csővezeték__
+
+Pipe
+"Idővel együtt:" rész jön
 
 
 
