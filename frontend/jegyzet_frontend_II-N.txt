@@ -706,4 +706,62 @@ Legközelebb:
 
 2026-11-04
 
+__Dolgozatok__
+
+2: tömböt, generálni kell egy táblázat (Read)
+3: REST API, generálni kell egy táblázatot (Read)
+	Create
+szit.hu
+  Oktatás > Web > Feladatok > Kliens
+
+Feladat 0104
+https://szit.hu/doku.php?id=oktatas:web:feladatok:kliens#feladat_0104
+
+ng new latogatni
+
+home
+solution
+about
+
+ng generate component home-component
+ng generate component about-component
+ng generate component city-component
+
+(ng generate component solution-component)
+
+szit.hu/int
+Kész (2 dolgozatra gyakorlat):
+https://github.com/suli26-27/iin_latogatni.git
+
+__Dolgozó nyilvántartás__
+
+Laravel
+
+https://github.com/oktatapi/humerlar.git
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
