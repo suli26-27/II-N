@@ -767,6 +767,21 @@ ng g s shared/position-service
 Írtunk egy PositionService-t.
 Az EmployeeComponent-ben lekértük a beosztásokat.
 
+(
+Markdown
+
+
+make.sh
+
+pandoc 00_Cimlap.md 01_Tema1.md -o valami.pdf
+
+
+chmod +x make.sh
+./make.sh
+
+
+)
+
 Legközelebb:
 	Írunk egy pipe-t, ami átalakítja az id-t
     egy beosztás nevére.
