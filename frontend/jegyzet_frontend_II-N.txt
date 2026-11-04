@@ -751,7 +751,7 @@ __Csővezeték__
 Pipe
 "Idővel együtt:" rész jön
 
-
+https://github.com/suli26-27/iin_cso.git
 
 
 
