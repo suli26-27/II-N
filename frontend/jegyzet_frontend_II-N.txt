@@ -760,6 +760,25 @@ __Pipe alkalmazása__
 https://github.com/oktatapi/emp_den.git    (Sipere, dolgozói backend)
 https://github.com/suli26-27/iin_azo.git
 
+_Dolgozó nyilvántartás folytatása_
+
+ng g s shared/position-service
+
+Írtunk egy PositionService-t.
+Az EmployeeComponent-ben lekértük a beosztásokat.
+
+Legközelebb:
+	Írunk egy pipe-t, ami átalakítja az id-t
+    egy beosztás nevére.
+    Ez után a táblázatban az id helyett név legyen.
+    Ez után CRUD műveletek
+	Ez után beosztások kezelése PositionComponent-ben.
+	Ez után beosztások kezelése ProjectComponent-ben.
+	Ez után dolgozók és projektek összerendelése.
+	Ez után felhasználók kezelése.
+
+
+
 
 
 
