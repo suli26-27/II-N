@@ -829,6 +829,42 @@ Legközelebb:
 		léptetődoboz
         args
 
+====================
+
+2026-11-06
+
+3. dolgozat: 2026-12-04
+Téma REST API elérés
+(4. dolgozat témája: Tisztakód)
+
+Terv
+	3. dolgozatra gyakorlás
+	Szakmai vizsgára lista és fájkezelés JavaFX
+	args használat
+
+__Dolgozatra gyakorlás__
+
+REST API Larvel
+JavaFx táblázat
+
+https://github.com/oktatapi/humerlar
+humerdesktop
+
+Desktopos programot
+	GUI
+	CLI - konzolos
+
+Legközelebb:
+	JavaFX lista
+	args
+	algoritmusok
+	Tisztakód
+
+
+
+
+
+
 
 
 
