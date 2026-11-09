@@ -794,6 +794,18 @@ Legközelebb:
 	Ez után dolgozók és projektek összerendelése.
 	Ez után felhasználók kezelése.
 
+====================
+
+2026-11-09
+
+https://github.com/oktatapi/humerlar
+https://github.com/suli26-27/iin_azo
+
+
+ng g p shared/pipe/position-name
+
+{{ emp.positionId | positionName: }}
+
 
 
 
