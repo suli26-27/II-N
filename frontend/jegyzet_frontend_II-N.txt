@@ -817,7 +817,11 @@ ng g p shared/pipe/position-name
 
 git pull origin master
 
-
+Legközelebb:
+	A login nem teszi el a tokent (pedig már eltette)
+		undefined-t tesz el
+	Employee típusra átállás
+	
 
 
 
