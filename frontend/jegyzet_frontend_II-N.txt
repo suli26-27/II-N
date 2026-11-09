@@ -783,6 +783,8 @@ chmod +x make.sh
 )
 
 Legközelebb:
+	https://github.com/oktatapi/emp_den.git    (Sipere, dolgozói backend)
+	https://github.com/suli26-27/iin_azo.git
 	Írunk egy pipe-t, ami átalakítja az id-t
     egy beosztás nevére.
     Ez után a táblázatban az id helyett név legyen.
