@@ -822,6 +822,37 @@ Legközelebb:
 		undefined-t tesz el
 	Employee típusra átállás
 	
+===================
+
+2026-11-11
+
+https://github.com/oktatapi/humerlar
+https://github.com/suli26-27/iin_azo
+
+__Típusok megadása__
+
+any > type employee
+
+
+df -h
+
+__Beosztások__
+
+Laravel-ben a positions, projects útvonalak legyenek védettek.
+
+ng g c postion-component
+
+ng g c project-component
+ng g s shared/project-service
+routes
+position-service
+	create, update, delete
+	Labor munka
+
+Asztali alkalmazásból vannak nem javított dolgozatok.
+
+
+
 
 
 
