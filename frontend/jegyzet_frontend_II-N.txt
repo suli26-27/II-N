@@ -851,6 +851,12 @@ position-service
 
 Asztali alkalmazásból vannak nem javított dolgozatok.
 
+Feladat:
+	Beosztások renderelése
+	Labor munka
+
+A beosztások Read művelet működik.
+A hozzáadás még nem hívja a REST API szervert.
 
 
 
