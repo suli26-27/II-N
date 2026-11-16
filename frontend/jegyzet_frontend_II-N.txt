@@ -858,6 +858,174 @@ Feladat:
 A beosztások Read művelet működik.
 A hozzáadás még nem hívja a REST API szervert.
 
+====================
+
+2026-11-16
+
+Angular ismétlés
+
+npm i -g @angular/cli@22
+ng new app01
+
+ng g c comp1-component 
+	--type component
+ng g s shared/nev-service
+ng g s services/nev-service
+ng g s shared/services/nev-service
+Életciklus függvényeket
+ngOnInit() {}
+constructor(){}
+inject()
+npm i bootstrap
+Képek public
+Eseménykezelés (click)="valami()"
+(ngSubmit)="save()"
+<p *ngIf="">  Common
+@if() {}
+@else {}
+<li *ngFor...
+@for(emp of emps ; track emp.id) {}
+@empty {}
+Útválasztás
+src/app/app.routes.ts
+	[]
+Szolgáltatások (nincs életcikus esemény)
+constructor(private empService: EmpService){}
+empService = inject(EmpService)
+HttpClient
+src/app/app.config.ts
+Táblázat
+	<tbody>
+		@for()...	
+      	<tr>
+https://github.com/suli26-27/iin_latogatni (30-án)
+szit.hu > Oktatás > Web > Feladatok > Kliens
+Reaktív
+Navigáció
+<nav>
+	<a>
+
+<ul>
+  <li>
+    <a>
+
+<nav>
+	<ul>
+  		<li>
+    		<a routerLink="valami">
+
+Azonosítás
+signal()
+Útvonalak védelm (Guard)
+Pipe
+
+__Sablon-vezérelt űrlap__
+
+sablon/
+ng new sablon
+ng g c home-componet
+ng g c solution-component
+
+(
+Codeium 
+Windsurf
+Devin Desktop
+devin-desktop
+.bashrc
+alias devin='devin-desktop'
+devin .
+)
+
+_Lust betöltés_
+
+import { Routes } from '@angular/router';
+ 
+export const routes: Routes = [
+  { path: '', redirectTo: 'login', pathMatch: 'full' },
+  { path: 'login', loadComponent: () => import('./login/login.component')
+      .then(m => m.LoginComponent) },
+  { path: 'employee', loadComponent: () => import('./employee/employee.component')
+      .then(m => m.EmployeeComponent) }
+];
+
+__Szűrés__
+
+miskolc
+
+oktatas:web:angular:angular_filter:pipetransform
+
+export class EmpfilterPipe implements PipeTransform {
+  transform(employees: any[], filter: string): any {
+    if(!employees || !filter) {
+      return employees
+    }    
+    return employees.filter(emp => 
+      emp.city.toLowerCase().includes(filter.toLowerCase())
+    );
+  }
+}
+
+
+<h2>Dolgozók</h2>
+
+<label for="actCity">Szűrés településre</label>
+<input type="text" [(ngModel)]="actCity" id="actCity">
+
+<table>
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Név</th>
+            <th>Település</th>
+            <th>Fizetés</th>
+        </tr>
+    </thead>
+    <tbody>
+        @for(emp of employees | empfilter:actCity; track emp.id) {
+            <tr>
+                <td>{{ emp.id }}</td>
+                <td>{{ emp.name }}</td>
+                <td>{{ emp.city }}</td>
+                <td>{{ emp.salary }}</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+import { Component } from '@angular/core';
+import { EmpfilterPipe } from '../shared/pipe/empfilter-pipe';
+import { FormsModule } from '@angular/forms';
+
+@Component({
+  imports: [EmpfilterPipe, FormsModule],
+  selector: 'app-employee-component',
+  styleUrl: './employee-component.css',
+  templateUrl: './employee-component.html',
+})
+export class EmployeeComponent {
+
+actCity! : string;
+
+employees = [
+    {id: 1, name: "Peres Béla", city: "Pécs", salary:395 },
+    {id: 2, name: "Energia Árpád", city: "Szeged", salary: 397 },
+    {id: 3, name: "Gyenge Valér", city: "Miskolc", salary: 398 },
+    {id: 4, name: "Pásztó László", city: "Pécs", salary: 399 },
+    {id: 5, name: "Trombita Béla", city: "Debrecen", salary: 400 },
+    {id: 6, name: "Rendes Lajos", city: "Szeged", salary: 401 },
+ 
+  ];  
+
+}
+
+
+
+
+
+
+
+
+
 
 
 
