@@ -1018,6 +1018,25 @@ employees = [
 
 }
 
+Szűrés befejezve.
+
+__Nemzetköziesítés__
+
+nemzet/
+
+ng new nemzet
+ng add @ngx-translate/core
+ng add @ngx-translate/http-loader
+
+Legközelebb:
+	Nemzetköziesítés nem siekrült kezdeni, mert
+	a TranslateModule nem tölthető be. Itt órán
+	nem derült ki miért.
+
+	iin_azo folytatása
+	Szűrés alkalmazása
+
+
 
 
 
