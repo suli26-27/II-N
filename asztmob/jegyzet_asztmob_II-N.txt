@@ -860,6 +860,13 @@ Legközelebb:
 	algoritmusok
 	Tisztakód
 
+==================
+
+2026-11-13
+
+A jegyzet nem készült vagy nem lett elmentve.
+
+JavaFX-ben készítettünk listát BorderPanelen.
 
 
 
