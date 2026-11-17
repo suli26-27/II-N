@@ -869,6 +869,11 @@ A jegyzet nem készült vagy nem lett elmentve.
 JavaFX-ben készítettünk listát BorderPanelen.
 https://github.com/suli26-27/iin_todod.git
 
+Legközelebb:
+	Tisztakód
+	Dolgozatra készülés tisztakód
+	JavaFX CheckBox
+		Túraválasztás
 
 
 
