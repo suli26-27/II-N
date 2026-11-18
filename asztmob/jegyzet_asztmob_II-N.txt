@@ -876,6 +876,22 @@ Legközelebb:
 		Túraválasztás
 
 
+==================
+
+2026-11-18
+
+Frontend helyett
+
+Dolgozatra készültünk
+
+
+Legközelebb 
+	még egy dolgozatra készülés
+	JavaFX CheckBox
+		Túraválasztás
+	args
+
+
 
 
 
