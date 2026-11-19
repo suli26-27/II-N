@@ -886,7 +886,8 @@ Dolgozatra készültünk
 
 
 Legközelebb 
-	még egy dolgozatra készülés
+	még egy dolgozatra készülés: REST API 
+		(nem Refaktorálás jön, hanem REST API)
 	JavaFX CheckBox
 		Túraválasztás
 	args
