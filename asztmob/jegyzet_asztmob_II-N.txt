@@ -892,6 +892,45 @@ Legközelebb
 		Túraválasztás
 	args
 
+===================
+
+2026-11-20
+
+__Hátralévő dolgozatok__
+	1. már meg volt
+	2. már meg volt
+	3. REST API elérés JavaFX (200%)
+	4. Refaktorálás tisztakód alapelvei alapján
+	5. React Native alkalmazás, bekérős feladat
+	6. React Native alkalmazás, lista megjelenítése (200%)
+
+__REST API elérés gyakorlás__
+
+https://github.com/oktatapi/crops_api.git
+
+git clone https://github.com/oktatapi/crops_api.git
+
+cropsgui/
+
+https://central.sonatype.com/
+
+szit.hu/int
+
+Kész:
+https://github.com/suli27-28/iin_cropsgui.git
+
+Átvettük az Algoritmusokon belül:
+	Láncolt lista
+	Kétirányba láncolt lista
+	Verem
+	Sor
+
+Legközelebb:
+	Fa, és gyakorlás szakmai vizsgára.
+
+
+
+
 
 
 
