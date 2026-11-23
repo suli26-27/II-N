@@ -1087,6 +1087,13 @@ providers: [
 
 https://github.com/suli26-27/iin_nemzi.git
 
+Nemzetköziesítés kész
+
+__Tömb lapozása__
+
+
+
+
 
 
 
