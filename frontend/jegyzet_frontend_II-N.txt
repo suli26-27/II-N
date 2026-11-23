@@ -1091,16 +1091,39 @@ Nemzetköziesítés kész
 
 __Tömb lapozása__
 
+humerlar
+git clone https://github.com/oktatapi/humerlar.git
 
+php artisan make:factory EmployeeFactory --model=Employee
 
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 
+class Employee extends Model
+{
+    use HasFactory;
+}
 
+EmployeeSeeder.php-ban
+Employee::factory(50)->create();
 
+res :8000/api/employees
 
+humlapoz/
+ng new humlapoz
+cd humlapoz
+code .
+ng g c home-component
+ng g c employee-component
 
+devin-desktop
+codium
+cursor
 
+Codeium > Windsurf
 
-
+Java Apache Netbeans
+GUI
+	Swing
 
 
 
