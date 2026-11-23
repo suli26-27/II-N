@@ -1037,6 +1037,57 @@ Legközelebb:
 	Szűrés alkalmazása
 
 
+==================
+
+2026-11-23
+
+Google keresőbe:
+mit site:szit.hu
+
+Kizárás
+mit -site:szit.hu
+
+__Nemzetköziesités__
+
+
+nemzi/
+
+ng new nemzi
+
+npm 
+
+szit.hu/valmi
+https://szit.hu/m/angular-nemzet/
+
+
+https://valami.hu/mas
+
+public/i18n/en.json
+public/i18n/hu.json
+public/i18n/es.json
+
+
+Angular 20, előtte
+providers: [
+    provideBrowserGlobalErrorListeners(),
+    provideRouter(routes),
+	provideHttpClient(),
+    provideTranslateService({
+      fallbackLang: 'en',
+      lang: 'en',
+      loader: provideTranslateHttpLoader({
+        prefix: './i18n/',
+        suffix: '.json'
+      })
+    })
+  ]
+
+<h2>Nemzetközi</h2>
+<h2>{{ 'app.international' | translate }}</h2>
+
+https://github.com/suli26-27/iin_nemzi.git
+
+
 
 
 
