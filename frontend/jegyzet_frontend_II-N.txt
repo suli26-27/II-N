@@ -1125,7 +1125,8 @@ Java Apache Netbeans
 GUI
 	Swing
 
-
+Legközelebb:
+	Playwrighte
 
 
 
