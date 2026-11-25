@@ -928,18 +928,110 @@ https://github.com/suli27-28/iin_cropsgui.git
 Legközelebb:
 	Fa, és gyakorlás szakmai vizsgára.
 
+=================
+
+2026-11-25
+
+__Algoritmusok__
+
+github.com/oktat/tan
+
+
+Adatszerkezet
+	verem
+	sor
+	láncolt lista
+	kétirányba láncol lista
+	LinkedList (Java)
+	ArrayList (Java)
+
+_Fák, erdő_
+
+vége
+
+_Tömbök és listák_
+
+2026-11-25/
+  |-lista/
+
+No build tools..
+
+you.com
+
+
+__Rekurzió__
+
+önmagát hívja egy metódus
+
+Reko.java
+
+tomb = {3, 5, 8, 22, 25, 27, 32}
+
+__Rendezés és keresés__
+
+Binaris.java
+
+
+__Tisztakód__
+
+exit(35)
+InputMismatchException
+
+exit(0)
+
+String a = "a";
+Integer.paresInt(a);
+
+Tiszta.java
 
 
 
 
+public class DataService {
+    String fileName = "emp.txt";
+    public ArrayList<Employee> readFile() {
+      
+        List<Employee> empList = new ArrayList<>();
+        try {
+            retrun tryReadFile();
+        } catch (FileNotFoundException e) {
+            System.err.println("Hiba! A fájl nem található!");
+            System.err.println(e.getMessage());
+			return null;
+        }
+        
+    }
+    private ArrayList<Employee> tryReadFile() 
+            throws FileNotFoundException {
+        ArrayList<Employee> empList = new ArrayList<>();
+        File file = new File(fileName);
+        Scanner sc = new Scanner(file);
+        while(sc.hasNext()) {
+            String line = sc.nextLine();
+            String[] lineArray = line.split(":");
+            Employee emp = new Employee(
+                Integer.parseInt(lineArray[0]),
+                lineArray[1],
+                lineArray[2],
+                Double.parseDouble(lineArray[3])
+            );
+            empList.add(emp);
+        }
+        sc.close();
+        return empList;
+    }    
 
 
+_Határok_
 
+pom.xml
 
+<depe..
 
+_Tesztelés_
 
+harom/
 
-
-
+_Osztályok_
 
 
