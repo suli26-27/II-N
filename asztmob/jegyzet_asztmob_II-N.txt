@@ -1066,6 +1066,8 @@ github.com/oktat/tan
 npx create-expo-app stilus --template
 npx create-expo-app stilus --template blank
 
+npm run web
+
 JSX
 
 Bekérés:
@@ -1078,6 +1080,10 @@ TextInput
 
 https://github.com/suli26-27/iin_stilus.git
 
+Átnéztük a jelszóbekérésig
+
+Legközelebb:
+	Funkcionális program
 
 
 
