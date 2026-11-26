@@ -1034,4 +1034,16 @@ harom/
 
 _Osztályok_
 
+====================
+
+2026-11-26
+
+Asztali- és mobilalkalmazások fej.
+
+__React Native__
+
+github.com/oktat/tan
+
+
+
 
