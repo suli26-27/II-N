@@ -1042,7 +1042,41 @@ Asztali- és mobilalkalmazások fej.
 
 __React Native__
 
+Kétféle fejlesztés:
+	React Native
+	React Native Expo
+		webes nézet
+		https://expo.dev
+Google Play Store-hoz:
+	Google Console
+	Kétfaktoros azonosítás
+.apk
+.aab
+
+
+npmjs.com
+eas-cli 
+
+(
+npm install --global valami
+)
 github.com/oktat/tan
+
+
+npx create-expo-app stilus --template
+npx create-expo-app stilus --template blank
+
+JSX
+
+Bekérés:
+TextInput
+
+<TextInput 
+  style={{backgroundColor: 'white',}}
+/>  
+
+
+https://github.com/suli26-27/iin_stilus.git
 
 
 
