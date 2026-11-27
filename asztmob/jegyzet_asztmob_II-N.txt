@@ -1084,6 +1084,6 @@ https://github.com/suli26-27/iin_stilus.git
 
 Legközelebb:
 	Funkcionális program
-
+	Baloldalon egy gépen van egy .npmrc fájlba, amiban van egy --allow-scripts sor?
 
 
